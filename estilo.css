@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+ul, li {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Parte Superior */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo h3 {
+    margin: 0;
+}
+.sobre {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.sobre h3 {
+    margin: 0;
+    padding: 0 10px;
+}
+/* Centro */
+.titulo1 h1,
+.subtitulo1 h2 {
+    color: #77c7c4;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.centro {
+    text-align: left;
+    margin-top: 50px;
+}
+.img1 {
+    display: flex;
+    margin-left: 40px;
+    height: 270px;
+}
+.linhacentro{
+    display: flex;
+}
+.direitaimg1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+/* Centro 2 */
+.titulo2 {
+    color: #77c7c4;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.texto2 {
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+.img2 {
+    margin-left: 30px;
+}
+.titulo3 {
+    color: #77c7c4;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.linhacentro2{
+    display: flex;
+    margin-bottom: 30px;
+}
+.textoladoimg2 {
+    margin-left: 30px;
+    margin-right: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+.img3 {
+    margin-right: 100px;
+}
+/* Baixo */
+.titulo4 {
+    color: #77c7c4;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.texto3 {
+    margin-left: 30px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+.titulo5 {
+    color: #77c7c4;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.texto4 {
+    margin-left: 30px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #77c7c4;
+}
